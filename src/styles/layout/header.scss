@@ -1,0 +1,144 @@
+:root{
+    --themeColorA: #00BA00;
+    --themeColorA_h: #00B83C;
+}
+
+.container{
+    max-width: 1400px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.main_header_contact{
+    padding: 8px;
+    border-bottom: solid 1px #dddddd;
+}
+
+.main_header_contact_content{
+    display: flex;
+    align-items: center;
+}
+
+.main_header_contact_item-1{
+    flex-basis: 25%;
+}
+
+.main_header_contact_item-2{
+    flex-basis: 25%;
+}
+
+.main_header_contact_item_bars{
+    flex-basis: 50%;
+   text-align: right;
+}
+
+.main_header_contact_content p{
+    font-size: 0.875em;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.main_header_contact_content a{
+    color: var(--themeColorA);
+}
+
+.main_header_contact_item_bars b{
+    color: var(--themeColorA);
+}
+
+.main_header_nav{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.main_header_nav_logo{
+    flex-basis: 20%;
+}
+
+.main_header_nav_logo img{
+    width: 200px;
+    max-width: 100%;
+}
+
+.main_header_nav_search{
+    flex-basis: 55%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.main_header_nav_search form{
+    display: flex;
+    overflow: hidden;
+    border: solid 1px #dddddd;;
+    padding: 5px 20px 5px 5px;
+    border-radius: 3px;
+}
+
+.main_header_nav_search input{
+    width: 100%;
+    border:none;
+    font-weight: 500;
+}
+
+.main_header_nav_search svg{
+    width: 20px;
+    max-width: 100%;
+}
+
+.main_header_nav_menu{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_header_nav_menu_cart,
+.main_header_nav_menu_account{
+    display: flex;
+    margin: 10px
+}
+
+.main_header_nav_menu svg{
+    width: 20px;
+    max-width: 100%;
+}
+
+.main_header_nav_menu p{
+    margin-left: 10px;
+    font-size: 0.875em;
+}
+
+.main_header_nav_menu_cart{
+    border: solid 1px #dddddd;
+    padding: 11px 8px 11px 8px;
+}
+
+.main_header_departments {
+    background-color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .main_header_departments li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .main_header_departments li a {
+    display: block;
+    color: #2f2e41;
+    font-size: 0.875em;
+    font-weight: 500;
+    padding: 10px 20px 10px 20px;
+    border-right: solid 1px #cccccc;
+  }
+  
+  .main_header_departments li a:hover {
+    color: var(--themeColorA_h);
+    transition: color 0.3s ease;
+  }
