@@ -50,6 +50,10 @@ ul{
     color: var(--themeColorA);
 }
 
+.fas .fa-bars{
+    margin-right: 10px;
+}
+
 .main_header_nav{
     display: flex;
     align-items: center;
@@ -118,8 +122,12 @@ ul{
     padding: 11px 8px 11px 8px;
 }
 
+.main_header_nav_menu_cart svg{
+    color: var(--themeColorA);
+}
+
 .main_header_departments {
-    background-color: #fafafa;
+    background-color: #F2F2F2;
     text-align: center;
     text-transform: uppercase;
   }
