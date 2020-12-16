@@ -14,8 +14,9 @@ ul{
 }
 
 .main_header_contact{
-    padding: 8px;
+    padding: 7px 0 7px 0;
     border-bottom: solid 1px #dddddd;
+    font-size: 0.775em;
 }
 
 .main_header_contact_content{
@@ -37,27 +38,28 @@ ul{
 }
 
 .main_header_contact_content p{
-    font-size: 0.875em;
+   
     font-weight: 600;
     margin-left: 5px;
 }
 
 .main_header_contact_content a{
     color: var(--themeColorA);
+    margin-left: 8px;
+}
+
+.text_color{
+    color: black !important;
 }
 
 .main_header_contact_item_bars b{
-    color: var(--themeColorA);
-}
-
-.fas .fa-bars{
-    margin-right: 10px;
+    color: var(--themeColorA); 
 }
 
 .main_header_nav{
     display: flex;
     align-items: center;
-    padding: 12px;
+    padding: 20px 0 20px 0;
 }
 
 .main_header_nav_logo{
@@ -86,7 +88,8 @@ ul{
 .main_header_nav_search input{
     width: 100%;
     border:none;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 0.875em;
 }
 
 .main_header_nav_search svg{
@@ -97,14 +100,13 @@ ul{
 .main_header_nav_menu{
     display: flex;
     flex-basis: 25%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .main_header_nav_menu_cart,
 .main_header_nav_menu_account{
     display: flex;
-    margin: 10px
 }
 
 .main_header_nav_menu svg{
@@ -112,22 +114,23 @@ ul{
     max-width: 100%;
 }
 
+.main_header_nav_menu svg path {
+    fill: var(--themeColorA);
+}
+
 .main_header_nav_menu p{
     margin-left: 10px;
     font-size: 0.875em;
+    font-weight: 600;
 }
 
 .main_header_nav_menu_cart{
     border: solid 1px #dddddd;
-    padding: 11px 8px 11px 8px;
-}
-
-.main_header_nav_menu_cart svg{
-    color: var(--themeColorA);
+    padding: 11px 10px 11px 10px;
 }
 
 .main_header_departments {
-    background-color: #F2F2F2;
+    background-color: #eeeeee;
     text-align: center;
     text-transform: uppercase;
   }
@@ -141,12 +144,12 @@ ul{
     display: block;
     color: #2f2e41;
     font-size: 0.875em;
-    font-weight: 500;
-    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+    padding: 12px 20px 12px 20px;
     border-right: solid 1px #cccccc;
   }
   
   .main_header_departments li a:hover {
-    color: var(--themeColorA_h);
+    background-color: #cccccc;
     transition: color 0.3s ease;
   }
