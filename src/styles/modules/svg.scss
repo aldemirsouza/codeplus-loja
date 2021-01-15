@@ -1,0 +1,9 @@
+@mixin Svg($color: #00BA00, $width: 30px, $height: 30px) {
+    & svg {
+        width: $width;
+        height: $height;
+        & path{
+            fill: $color;
+        }
+    }
+}
