@@ -8,6 +8,7 @@ const menu = {
         }
         const callbackMenu = data =>{
             menu.render({data, main: mainClass});
+            
         }
 
         api(config, callbackMenu);
@@ -27,15 +28,15 @@ const menu = {
             newCategoryLink.href = url;
             newCategoryLink.textContent = name;
 
-            const newCategoryItem = document.createElement('div');
-            newCategoryItem.classList.add(`${mainClassWithoutPoint}-box-category`);
+            const newCategoryBox = document.createElement('div');
+            newCategoryBox.classList.add(`${mainClassWithoutPoint}-box-category`);
 
             newCategory.appendChild(newCategoryLink);
-            newCategory.appendChild(newCategoryItem);
+            newCategory.appendChild(newCategoryBox);
             $mainClass.appendChild(newCategory);
 
             if(hasChildren){
-                menu.render({data: children, main: newCategoryItem});
+                menu.render({data: children, main: newCategoryBox});
             }
         })
     }
