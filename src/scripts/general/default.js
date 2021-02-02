@@ -4,7 +4,7 @@ const Minicart = require('../modules/minicart');
 const Default = {
     init: function () {
        Default.menuInit();
-       Minicart.init({minicartClass: '.header__carrinho'});
+       Minicart.init({minicartClass: '.header__carrinho', OutterBox: true});
     },
 
     menuInit: () => {
