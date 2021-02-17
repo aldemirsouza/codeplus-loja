@@ -48,6 +48,8 @@ const Minicart = {
         classList: ['minicart__box'],
         children: [container]
       });
+
+      outterBoxMinicart.addEventListener('click', outterBoxMinicart.remove);
   
       if(OutterBox) return $container.append(outterBoxMinicart)
       $container.append(container);

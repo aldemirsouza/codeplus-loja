@@ -149,6 +149,19 @@ body>#ajaxBusy.loading {
     text-align: center;
     background-color: transparent;
 }
+.slick-slider{
+    display: flex;
+}
+
+.slick-list{
+    display: flex;
+    overflow: hidden;
+}
+
+.slick-track{
+    display: flex;
+}
+
 body>#ajaxBusy.loading[style="display: none;"] {
     display: none!important;
 }

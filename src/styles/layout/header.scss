@@ -146,6 +146,7 @@
           align-items: center;
           height: 100%;
           position: relative;
+          z-index: 1;
 
         &:hover{
           & .header__categorias-box-category{

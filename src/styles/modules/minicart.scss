@@ -1,0 +1,24 @@
+.minicart{
+  width: 500px;
+  height: 100%;
+  background-color: #ffffff;
+
+  &__box{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0000004d;
+    z-index: 3;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__top{
+    height: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+  }
+}

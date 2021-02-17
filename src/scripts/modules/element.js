@@ -3,7 +3,7 @@ const Element = (props)=>{
 
   props?.classList && newElement.classList.add(...props.classList);
   props?.children && newElement.append(...props.children);
-  props?.imageUrl && (newElement.src = props.src);
+  props?.src && (newElement.src = props.src);
   props?.text && (newElement.textContent = props.text);
 
   return newElement;
